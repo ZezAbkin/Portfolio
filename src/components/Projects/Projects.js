@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="Alzhiemers ViT Classifier"
               description="This is an application which uses a Vision Transformer (ViT) trained on the ADNI dataset to classify brains with alzheimers. The ViT architecture was built by analysing the article: https://arxiv.org/abs/2010.11929. I used a university supercomputer to train this model and was a contribution to an open source project. More information is provided in the readme file on github."
-              ghLink="https://github.com/shakes76/PatternAnalysis-2023/pull/175"
+              ghLink="https://github.com/shakes76/PatternAnalysis-2023/tree/topic-recognition/recognition/alzheimer-transformer"
             />
           </Col>
 
