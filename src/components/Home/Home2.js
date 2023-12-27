@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/grad-pic-purple.png"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,29 +19,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              While completing a physics degree, I fell in love with programming, machine learning and 
-              the scientific process enough to pursue a computer science degree instead!
-              <br />
-              <br />I am fluent in languages like
+              Having recently completed a&nbsp;
               <i>
-                <b className="purple"> Python, R, SQL, and Java. </b>
-              </i>
-              <br />
-              <br />
-              My primary field of interest is training and using&nbsp;
-              <i>
-                <b className="purple">Machine Learning Models</b> or other data science techniques to {" "}
                 <b className="purple">
-                  create optimal solutions and integrate into useful applications.
+                Bachelor of Computer Science majoring in Machine Learning at UQ
                 </b>
               </i>
+              , I am looking for opportunities within the field of data science and machine learning.
               <br />
-              <br />
-              I am excited to apply the fields of machine learning and artificial intelligence to automate 
-              tasks and optimise bussiness solutions, or to further the natural sciences. 
+              <br/>
+              My focus is applying machine learning and data science to&nbsp;
+              <i>
+                <b className="purple">
+                automate tasks, enhance business strategies, and advance scientific exploration.
+                </b>
+              </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>

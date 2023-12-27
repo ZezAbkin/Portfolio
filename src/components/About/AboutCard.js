@@ -11,24 +11,14 @@ function AboutCard() {
             Hey there, I am <span className="purple">Henry Abkin </span>
             from <span className="purple"> Brisbane, Australia.</span>
             <br />
-            I have just graduated with a Bachelor of Computer Science majoring in Machine Learning from the Universiy of Queensland (UQ).
             <br />
-            I am currently looking for an internship or other opportunities within the fields of machine learning and data science.
+            Having recently graduated with a Bachelor of Computer Science majoring in Machine Learning at the University of Queensland, I am an enspired machine learning engineer eager to gain hands-on experience in the industry. I am actively seeking an internship or graduate program in machine learning, artificial intelligence, or data science to gain vital real world skills.
             <br />
             <br />
-            Apart from coding, I also enjoy...
+            Throughout my academic journey, I have gained experience in various data science projects, honing my skills in Python, R, SQL, and data visualization tools such as Tableau. Additionally, I have developed proficiency in machine learning frameworks like TensorFlow and PyTorch. Driven by a passion for data science and machine learning, I am a quick learner and possess a strong aptitude for creative problem-solving.
+            <br />
+            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing and composing music
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Bartending
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Playing Video Games
-            </li>
-          </ul>
         </blockquote>
       </Card.Body>
     </Card>

@@ -20,7 +20,9 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiGnubash,
-  SiGithub
+  SiGithub,
+  SiNumpy,
+  SiPandas
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -46,15 +48,6 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center" }}>
-            JavaScript
-          </p>
-        </blockquote>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center" }}>
@@ -64,19 +57,20 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center" }}>
-            Git
-          </p>
-        </blockquote>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
         <SiR/>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center" }}>
             R Language
+          </p>
+        </blockquote>
+      </Col>
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "center" }}>
+            Git
           </p>
         </blockquote>
       </Col>
@@ -113,6 +107,24 @@ function Techstack() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "center" }}>
             Tensorflow
+          </p>
+        </blockquote>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy/>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "center" }}>
+            NumPy
+          </p>
+        </blockquote>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPandas/>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "center" }}>
+            Pandas
           </p>
         </blockquote>
       </Col>
